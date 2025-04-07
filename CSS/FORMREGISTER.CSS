@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../IMG/cool-background.png);
+
+}
+
+/* Contenedor del formulario */
+.login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Contenedor del formulario */
+.register-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Título */
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Campos de entrada */
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+/* Contenedor para la contraseña con icono */
+.password-box {
+    position: relative;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+/* Botón de inicio de sesión */
+.btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efecto hover en el botón */
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Enlace de registro */
+p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 5px;
+    border-top: solid 8px rgb(3, 3, 3);
+    margin-bottom: 5px;
+}
+
+.register-container img {
+    display: block;
+    margin: 0 auto;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #e8e4e4; /* Color de fondo opcional */
+    padding: 10px 0;
+    text-align: center;
+}
